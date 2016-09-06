@@ -1,0 +1,3 @@
+In this project, the goal is to predict the category of a dish's cuisine given a list of its ingredients. The dataset is taken from Kaggle competition ‘What’s Cooking’ created by yummy in San Francisco.
+
+We used Stemming and Lemmatization to preprocess the the ingredient names and reduced the feature vector size by almost half from around 6000 to 3000. Then tiff was applied. To further reduce the size of feature vectorsupervised-PCA(in file data_pca_classification.py, SPCA.m) was tested. Principal components were then trained on an Ensemble Classifier ‘xgboost’ (boosting) and kernelled SVM (code is given in ensemble_xgb.py).
